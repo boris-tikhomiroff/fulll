@@ -91,23 +91,23 @@ load-nvmrc
 
 ## Project Structure
 
-> src/
-> &nbsp;&nbsp;&nbsp;&nbsp;components/
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Header.tsx
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SearchResult.tsx
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UserCard.tsx
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SearchInput.tsx
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Loader.tsx
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Message.tsx
-> &nbsp;&nbsp;&nbsp;&nbsp; context/
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; search.context.tsx
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; edit.context.tsx
-> &nbsp;&nbsp;&nbsp;&nbsp; hooks/
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;useDebounce.ts
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;useQuery.ts
-> &nbsp;&nbsp;&nbsp;&nbsp; services/
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; users.services.ts
-> &nbsp;&nbsp;&nbsp;&nbsp; type/
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.ts
-> App.tsx
-> index.tsx
+src/
+├── components/
+│ ├── Header
+│ ├── SearchResult
+│ ├── UserCard
+│ ├── SearchInput
+│ ├── Loader
+│ ├── Message
+├── context/
+│ ├── search.context.tsx
+│ ├── edit.context.tsx
+├── hooks/
+│ ├── useDebounce.ts
+│ ├── useQuery.ts
+├── services/
+│ ├── users.services.ts
+├── type/
+│ ├── index.ts
+├── App.tsx
+├── index.tsx
