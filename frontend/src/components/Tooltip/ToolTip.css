@@ -1,0 +1,33 @@
+.tooltip__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 2.6rem;
+  min-height: 4.1rem;
+}
+
+.tooltip__subcontainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+}
+
+.tooltip__subcontainer span {
+  font-weight: 800;
+}
+
+.tooltip__icons {
+  display: flex;
+}
+
+.tooltip__tools {
+  display: flex;
+}
+
+.tooltip__tools--disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}

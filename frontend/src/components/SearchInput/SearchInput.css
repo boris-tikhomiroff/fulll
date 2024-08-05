@@ -1,0 +1,28 @@
+.search-input {
+  background: var(--light-grey);
+  text-align: center;
+  /* padding: 1.5rem 15rem; */
+
+  width: 100%;
+  max-width: 60rem;
+  padding: 1.5rem 0;
+  margin: 0 1.2rem;
+
+  border-radius: 0.6rem;
+  border: none;
+  font-size: 2em;
+}
+
+.search-input::placeholder {
+  color: black;
+}
+
+.search-input:hover {
+  background: #e3e3e3;
+}
+
+/* @media screen and (max-width: 430px) {
+  .search-input {
+    padding: 1.5rem 2.5rem;
+  }
+} */

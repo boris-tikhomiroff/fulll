@@ -1,0 +1,28 @@
+.loader {
+  border: 1rem solid #f3f3f3;
+  border-top: 1rem solid var(--dark-grey);
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+  animation: loader__spin 1s linear infinite;
+}
+
+@media screen and (max-width: 430px) {
+  .loader {
+    border: 0.5rem solid #f3f3f3;
+    border-top: 0.5rem solid var(--dark-grey);
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    animation: loader__spin 1s linear infinite;
+  }
+}
+
+@keyframes loader__spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

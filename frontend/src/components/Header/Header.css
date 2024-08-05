@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  background: white;
+  position: fixed;
+  z-index: 10;
+}
+
+.header__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--dark-grey);
+  height: 6.4rem;
+  width: 100%;
+}
+
+.header__input-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 2.6rem;
+  padding-bottom: 2.6rem;
+}

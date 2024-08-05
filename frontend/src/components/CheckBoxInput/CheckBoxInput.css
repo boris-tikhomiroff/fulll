@@ -1,0 +1,40 @@
+/* Blocs et éléments */
+.checkbox {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkbox__input {
+  display: none;
+}
+
+.checkbox__checkmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.4rem;
+  width: 1.4rem;
+  background-color: transparent;
+  border-radius: 0.4rem;
+  border: 0.3rem solid black;
+  position: relative;
+}
+
+.checkbox__checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+  width: 0.8rem;
+  height: 0.2rem;
+}
+
+.checkbox__input:checked ~ .checkbox__checkmark {
+  background-color: var(--blue-primary);
+}
+
+.checkbox__input:checked ~ .checkbox__checkmark::after {
+  display: block;
+  background: black;
+}

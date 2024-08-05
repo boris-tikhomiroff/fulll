@@ -1,0 +1,28 @@
+.message__container {
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 25rem;
+}
+
+.message__container--error {
+  background: var(--red-primary);
+}
+
+.message__container--info {
+  background: var(--dark-grey);
+}
+
+.message__content {
+  text-align: center;
+  padding: 2rem 0;
+  border-radius: 1rem;
+}
+
+.message__content--info {
+  background: var(--light-grey);
+}
+
+.message__content--error {
+  background: var(--red-secondary);
+}
